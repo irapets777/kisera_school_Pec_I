@@ -1,19 +1,59 @@
-.header {
+.header{
+    height: 405px;
     position: relative;
+    overflow: hidden;
     &__front{
         position: absolute;
-        left: 0;
         top: 0;
-        z-index: 2;
-        width: 100%;
+        left: 0;
+        z-index: -1;
+        @media screen and (max-width: 992px){
+            img{
+                top: -40x;
+            }
+            
+        }
     }
 
     &__back{
         position: absolute;
-        left: 0;
         top: 0;
-        z-index: 1;
-        width: 100%;
+        left: 0;
+        z-index: -2;
+        @media screen and (max-width: 992px){
+            position: absolute;
+            top: -40x;
+        }
+    }
+
+    &__logo{
+        margin-top: 40px;
+        @media screen and (max-width: 992px) {
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    &__nav{
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+
+    &__menu{
+        gap: 50px;
+    }
+
+    &__link{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFDDB6;
+        @media screen and (max-width: 992px) {
+            font-size: 16px;
+        }
     }
 }
+
 

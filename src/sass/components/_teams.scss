@@ -1,0 +1,24 @@
+.teams__item{
+    background-color: #033D20;
+    padding: 44px 60px 40px;
+    min-height: 500px;
+    .teams__title{
+        padding: 20px 0px 32px;
+        font-family: 'Marck Script';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 1;
+        color: #FFDDB6;
+    }
+    .teams__describe{
+        font-family: 'Marck Script';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #FFDDB6;
+    }
+}
+
+.teams__img {
+    max-width: 720px;
+}
